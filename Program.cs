@@ -8,8 +8,8 @@ namespace EventPublisher
 {
     class Program
     {
-        private const string topicEndPoint = "https://hrtopicgopal.eastus-1.eventgrid.azure.net/api/events";
-        private const string topicKey = "E6KKSQzxkV68QycFCkwYqIoJuHEJjSqOxQ5V9QMlHdI=";
+        private const string topicEndPoint = "https://xyx.eastus-1.eventgrid.azure.net/api/events";
+        private const string topicKey = "yourtopickey=";
         public static async Task Main(string[] args)
         {
             TopicCredentials credentials = new TopicCredentials(topicKey);
